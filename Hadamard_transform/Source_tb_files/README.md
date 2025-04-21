@@ -43,14 +43,12 @@ The Hadamard transform is performed over a 4×4 matrix (16 elements in total), p
     Efficient use of FIFO and RAM to manage sequential-to-parallel data transformation.
 
     Optimized for hardware implementation with pipeline-ready architecture.
+    
 
-  # ASCII Block Diagram
+  # Flow Diagram
 
-   +------------+       +--------+       +--------------+       +---------------+
-   |  Input     |       | FIFO   |       |     RAM      |       |   Adder Logic |
-   |  Data      | ----> | 8-bit  | ----> | 4x8-bit RAM  | ----> | 4x4 Hadamard  |
-   | (Serial)   |       | 16-depth|      | (to 32-bit)  |       | Transform Core|
-   +------------+       +--------+       +--------------+       +---------------+
+   | Input Data (Serial) | ----> | FIFO 8-bit 16-depth | ----> | RAM 4x8-bit RAM | ----> |   Adder Logic (to 32-bit) 4x4 Hadamard Transform Core |
+    
 
   # How to Simulate
 
@@ -76,9 +74,9 @@ If you cloned this repository, the IPs may not be generated yet. Here's how to r
 
     Right-click on each IP core and select:
 
-        ✅ "Generate Output Products"
+         1. "Generate Output Products"
 
-        ✅ (Optional) "Generate Simulation Sources" if you plan to simulate IPs
+         2. (Optional) "Generate Simulation Sources" if you plan to simulate IPs
 
     Wait for Vivado to complete the generation process.
 
