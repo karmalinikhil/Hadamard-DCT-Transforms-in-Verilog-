@@ -82,6 +82,16 @@ If you cloned this repository, the IPs may not be generated yet. Here's how to r
 
 or else just generate the Ips which are used in the source code directly from the ip catalog provided inside vivado, also do note theres a custom fifo file used in the code to store the final outputs of the transformed matrix which can later be used to generate the transformed matrix outputs by using this file itself as a new ip in any other application or code.
 
+# Simulation Results
+
+After simulating the design, the following waveform confirms the correct execution of the 4x4 Hadamard transform:
+
+
+1. When the input array is all 15 in decimal system 16 times, after being processed by the transform logic should provide a answer as 60 0 0 0 , followed by the same pattern 3 more times 
+![Waveform Output](Test_results/HT_test01_15.png)
+
+2. Similarly when input is all 12 , the output is 48 0 0 0...
+![Waveform Output](Test_results/HT_test01_12.png)
 
 
     
