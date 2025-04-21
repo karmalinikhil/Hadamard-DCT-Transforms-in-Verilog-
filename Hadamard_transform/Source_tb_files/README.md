@@ -47,7 +47,7 @@ The Hadamard transform is performed over a 4×4 matrix (16 elements in total), p
 
   # Flow Diagram
 
-   | Input Data (Serial) | ----> | FIFO 8-bit 16-depth | ----> | RAM 4x8-bit RAM | ----> |   Adder Logic (to 32-bit) 4x4 Hadamard Transform Core |
+   | Input Data (Serial) | ----> | FIFO 8-bit 16-depth | ----> | RAM 4x8-bit RAM | ----> |   Adder Logic (to 32-bit) 4x4 Hadamard Transform Core | ----> | Custom fifo (8x16) for Output Storage |
     
 
   # How to Simulate
