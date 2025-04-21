@@ -91,7 +91,7 @@ After simulating the design, the following waveform confirms the correct executi
 ![Waveform Output](HT_test01_15.png)
 
 2. Similarly when input is all 12 , the output is 48 0 0 0...
-![Waveform Output](HT_test01_12.png)
+![Waveform Output](HT_test02_12.png)
 
 
     
