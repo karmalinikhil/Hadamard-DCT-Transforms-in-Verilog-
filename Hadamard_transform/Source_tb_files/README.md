@@ -88,10 +88,10 @@ After simulating the design, the following waveform confirms the correct executi
 
 
 1. When the input array is all 15 in decimal system 16 times, after being processed by the transform logic should provide a answer as 60 0 0 0 , followed by the same pattern 3 more times 
-![Waveform Output](Hadamard_transform/Test_results/HT_test01_15.png)
+![Waveform Output](Test_results/HT_test01_15.png)
 
 2. Similarly when input is all 12 , the output is 48 0 0 0...
-![Waveform Output](Hadamard_transform/Test_results/HT_test01_12.png)
+![Waveform Output](Test_results/HT_test01_12.png)
 
 
     
