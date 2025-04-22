@@ -3,8 +3,8 @@
 This folder contains the Verilog source code and simulation testbench used to implement and verify a 4×4 Hadamard transform.
 
 # Files Included
-- `hadamard_top.v` – Main source file with the complete transform logic
-- `hadamard_tb.v` – Testbench used to simulate the design
+- `had_trans_display.v` – Main source file with the complete transform logic
+- `tb_had_trans.v` – Testbench used to simulate the design
 
 # Workflow Summary
 - 8-bit input data is pushed into a FIFO (16-depth).
