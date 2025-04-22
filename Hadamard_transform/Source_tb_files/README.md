@@ -9,7 +9,7 @@ This folder contains the Verilog source code and simulation testbench used to im
 # Workflow Summary
 - 8-bit input data is pushed into a FIFO (16-depth).
 - Data flows from FIFO into RAM, grouping every 4 bytes into a 32-bit word.
-- The RAM output is processed by parallel adder logic to generate 4 Hadamard outputs per cycle.
+- The RAM output is processed by parallel adder logic to generate 4 Hadamard outputs in each iteration.
 - The full 4×4 matrix is computed and the result is stored in a custom fifo for later use.
   
 
