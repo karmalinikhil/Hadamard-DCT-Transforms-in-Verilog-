@@ -28,10 +28,10 @@ The Hadamard transform is performed over a 4×4 matrix (16 elements in total), p
 
     4. Adder Logic Execution:
 
-        The adder logic processes the 4 input elements per clock cycle.
+        The adder logic processes the 4 input elements received from the RAM, providing output elements each iteration.
 
-        This step continues for 4 clock cycles, ensuring all 16 input elements are processed.
-
+        This step continues unitl all the input matrix elements are processed.
+        
         As a result, the logic outputs the entire 4x4 Hadamard transformed matrix, one row at a time.
 
 # Key Highlights
