@@ -3,7 +3,7 @@
 This folder contains the Verilog source code and simulation testbench used to implement and verify a 4×4 Hadamard transform.
 
 # Files Included
-- `had_trans_display.v` – Main source file with the complete transform logic
+- `had_transform_source.v` – Main source file with the complete transform logic
 - `tb_had_trans.v` – Testbench used to simulate the design
 
 # Workflow Summary
