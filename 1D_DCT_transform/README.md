@@ -30,14 +30,12 @@ The project takes a 4×4 block of 8-bit input data and performs a 1D DCT transfo
 
 ---
 
-##  Folder Contents
+# Simulation Results
 
-- `src/` – Main Verilog source files
-- `tb/` – Testbench files for simulation and validation
-- `ip_files/` – Vivado IP core configurations (`.xci`)
-- `test_results/` – Simulation output images and waveform screenshots
+Below is the DCT coefficient matrix (A) and inout matrix (B)
 
----
+![Waveform Output](images/waveform.png)
+
 
 ##  Notes
 
