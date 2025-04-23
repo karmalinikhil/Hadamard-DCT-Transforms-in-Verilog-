@@ -47,6 +47,10 @@ Below is the simulated waveform results, providing the same outputs as intended 
 
 Do check the test_results folder for another case with input array as 1 2 3 4 this time. 
 
+Heres the full waveform screenshot along with all the source files and the ips/custom files that were used to simulate the design.
+
+![Waveform Output](Full_waveform_w_sources.png)
+
 ##  Notes
 
 - The `.xci` files in `ip_files/` are sufficient to regenerate the required IP cores in Vivado.
