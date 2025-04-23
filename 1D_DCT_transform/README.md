@@ -32,10 +32,20 @@ The project takes a 4×4 block of 8-bit input data and performs a 1D DCT transfo
 
 # Simulation Results
 
-Below is the DCT coefficient matrix (A) and inout matrix (B)
+Below is the DCT coefficient matrix (A) and inout matrix (B).
 
-![Waveform Output](images/waveform.png)
+![Waveform Output](DCT_1d_test02_5721_mat.png)
 
+And here is the actual multiplied output it should generate. 
+
+![Waveform Output](DCT_1d_test02_5721_mat_result.png)
+
+Below is the simulated waveform results, providing the same outputs as intended thus verifying the transform logic. 
+
+![Waveform Output](DCT_1d_test02_5721_waveform.png)
+![Waveform Output](DCT_1d_test02_5721_waveform_result.png)
+
+Do check the test_results folder for another case with input array as 1 2 3 4 this time. 
 
 ##  Notes
 
