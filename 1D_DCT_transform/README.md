@@ -43,6 +43,8 @@ And here is the actual multiplied output it should generate.
 Below is the simulated waveform results, providing the same outputs as intended thus verifying the transform logic. 
 
 ![Waveform Output](DCT_1d_test02_5721_waveform.png)
+
+Output elements through DCT2_out [21:0] register. 
 ![Waveform Output](DCT_1d_test02_5721_waveform_result.png)
 
 Do check the test_results folder for another case with input array as 1 2 3 4 this time. 
