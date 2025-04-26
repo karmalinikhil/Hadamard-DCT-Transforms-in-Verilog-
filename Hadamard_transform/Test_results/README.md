@@ -24,5 +24,5 @@ Below are the simulation outputs generated for the 2D DCT Transform:
 
 ### Hadamard Transformed Matrix Waveform  
 
-![](HT_test01_12.png)
+![](HT_test02_12.png)
 
