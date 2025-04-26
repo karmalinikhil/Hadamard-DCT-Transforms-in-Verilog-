@@ -36,6 +36,6 @@ Below are the simulation outputs generated for the 2D DCT Transform:
 ![Final 2D DCT Output](2D_DCT_serial_out_1_02.png)
 ![Final 2D DCT Output](2D_DCT_serial_out_2_02.png)
 
-Do check the another Test case here : ![2D_DCT_transform/README.md](/2D_DCT_transform/README.md)
+## Do check the another Test case here : ![2D_DCT_transform/README.md](/2D_DCT_transform/README.md)
 
 
