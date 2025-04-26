@@ -31,7 +31,7 @@ Each design is modular, reusable, and comes with complete testbenches and simula
 
 - **Simulation Results**:
   - Parallel and serial outputs of the transformed data are validated.
-  - Detailed plots are provided in the [hadamard_transform/Test_Results](Hadamard_transform/Test_Results/README.md) folder.
+  - Detailed plots are provided in the [hadamard_transform/Test_results](Hadamard_transform/Test_results/README.md) folder.
 
 [See full details ➔](Hadamard_transform/README.md)
 
