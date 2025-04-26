@@ -47,7 +47,7 @@ Each design is modular, reusable, and comes with complete testbenches and simula
 
 - **Simulation Results**:
   - Each stage of transformation is validated via testbenches.
-  - Simulation waveforms are available in [1D_DCT_transform/Test_Results](1D_DCT_transform/Test_Results/README.md).
+  - Simulation waveforms are available in [1D_DCT_transform/Test_results](1D_DCT_transform/Test_results/README.md).
 
 [See full details ➔](1D_DCT_transform/README.md)
 
@@ -84,7 +84,7 @@ Each design is modular, reusable, and comes with complete testbenches and simula
 
 - **Simulation Results**:
   - The correctness of row and column transformations is validated.
-  - Waveforms and output snapshots are available in [2D_DCT_transform/Test_Results](2D_DCT_transform/Test_results/README.md).
+  - Waveforms and output snapshots are available in [2D_DCT_transform/Test_results](2D_DCT_transform/Test_results/README.md).
 
 [See full details ➔](2D_DCT_transform/README.md)
 
