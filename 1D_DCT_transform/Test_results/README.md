@@ -32,3 +32,5 @@
 
 ### Output elements through DCT2_out [21:0] register.
 ![Waveform Output](DCT_1d_test02_5721_waveform_result.png)
+
+## For more details and how all this works go to : [Full details->](/1D_DCT_transform/README.md)
