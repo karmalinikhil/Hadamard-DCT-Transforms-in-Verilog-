@@ -41,4 +41,23 @@ This project implements a 2D Discrete Cosine Transform (2D DCT) on a 4x4 input m
 - `DCT_2D_source_mult2.v` — Performs the second multiplication to complete the 2D DCT.
 - `DCT_2D_source_final.v` — Top-level module integrating all submodules.
 
-  ![Waveform Output](DCT_1d_test02_5721_mat.png)
+## Simulation Results
+
+Below are the simulation outputs generated for the 2D DCT Transform:
+
+### C and X Matrix used 
+
+![CX Matrix Output](link_to_cx_matrix_output_image)
+
+### Intermediate CX Matrix (After First Stage)
+
+![CX Matrix Output](link_to_cx_matrix_output_image)
+
+### Final 2D DCT Transformed Matrix (After Second Stage)
+
+![Final 2D DCT Output](link_to_final_2d_dct_output_image)
+
+### Serial Output Stream (DCT_2D_train_out)
+
+![Serialized Output](link_to_serialized_output_image)
+  
