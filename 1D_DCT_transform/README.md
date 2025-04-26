@@ -53,6 +53,8 @@ Heres the full waveform screenshot along with all the source files and the ips/c
 
 ![Waveform Output](Full_waveform_w_sources.png)
 
+## For another simulation result with a different test case used go to : [Test_results➔](Test_results/README.md)
+
 ##  Notes
 
 - The `.xci` files in `ip_files/` are sufficient to regenerate the required IP cores in Vivado.
