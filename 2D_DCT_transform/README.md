@@ -40,3 +40,5 @@ This project implements a 2D Discrete Cosine Transform (2D DCT) on a 4x4 input m
 - `trans_mat.v` — Transposes matrices.
 - `DCT_2D_source_mult2.v` — Performs the second multiplication to complete the 2D DCT.
 - `DCT_2D_source_final.v` — Top-level module integrating all submodules.
+
+  ![Waveform Output](DCT_1d_test02_5721_mat.png)
