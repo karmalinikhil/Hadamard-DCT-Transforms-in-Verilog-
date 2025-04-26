@@ -47,17 +47,48 @@ Below are the simulation outputs generated for the 2D DCT Transform:
 
 ### C and X Matrix used 
 
-![CX Matrix Output](link_to_cx_matrix_output_image)
+![C and X Matrix used ](Test_results/C*X_51149.png)
+
+### Input Data Waveform
+
+![Input Data Waveform](Test_results/2D_DCT_input_data_full.png)
 
 ### Intermediate CX Matrix (After First Stage)
 
-![CX Matrix Output](link_to_cx_matrix_output_image)
+![CX Matrix Output](Test_results/C*X_51149_result.png)
+
+### Intermediate CX Matrix Waveform 
+
+![CX Matrix Output](Test_results/2D_DCT_mid_parallel_out.png)
+
+###  (CX)^T Matrix Generated
+
+![(CX)^T Matrix Generated](Test_results/C*X_51149_result_tran.png)
+
+###  (CX)^T * C Matrices 
+
+![(CX)^T * C Matrices ](Test_results/C*(C*X)T_51149.png)
 
 ### Final 2D DCT Transformed Matrix (After Second Stage)
 
-![Final 2D DCT Output](link_to_final_2d_dct_output_image)
+![Final 2D DCT Output](Test_results/C*(C*X)T_51149_result.png)
 
-### Serial Output Stream (DCT_2D_train_out)
+### Final 2D DCT Transformed Matrix Waveform ( Parallel )
 
-![Serialized Output](link_to_serialized_output_image)
+![Final 2D DCT Output](Test_results/2D_DCT_parallel_out.png)
+
+
+### Final 2D DCT Transformed Matrix Waveform ( Serial )
+
+![Final 2D DCT Output](Test_results/2D_DCT_serial_out_1.png)
+![Final 2D DCT Output](Test_results/2D_DCT_serial_out_2.png)
+
+
+### Full Output Wavform With all Sources and Ips used 
+
+![Final 2D DCT Output](Test_results/2D_DCT_Full_waveform.png)
+
+
+
+
   
