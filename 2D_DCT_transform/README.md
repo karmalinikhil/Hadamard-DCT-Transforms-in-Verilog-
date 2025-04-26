@@ -88,7 +88,7 @@ Below are the simulation outputs generated for the 2D DCT Transform:
 
 ![Final 2D DCT Output](Test_results/2D_DCT_Full_waveform.png)
 
-Do check out Another test case here : ![2D_DCT_transform/Test_results/README.md](Test_results/README.md)
+## Do check out Another test case here : ![2D_DCT_transform/Test_results/README.md](Test_results/README.md)
 
 
 
